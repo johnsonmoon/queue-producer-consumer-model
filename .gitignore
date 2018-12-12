@@ -1,0 +1,42 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+target/
+.classpath
+.project
+.settings/
+logs/
+disconf/
+
+/front-end/node_modules
+/front-end/tenant/WEB-INF/build/
+/front-end/*.log
+
+# IntelliJ IDEA config
+.idea/
+*.iml
+*.*rebel*.xml.bak
+
+/webapp/build/
+/webapp/css/
+/webapp/files/
+/webapp/frontend/
+/webapp/images/
+/webapp/js/
+/webapp/less/
+/webapp/styles/
+/webapp/template/
+/webapp/userimages/
+/tenant/
+/webapp/META-INF/
+/webapp/*.html
+.DS_Store
+*.yaml
+.DS_Store
